@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.text.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane prefHeight="390.0" prefWidth="600.0" styleClass="root"
+	stylesheets="@../styles/home.css" xmlns="http://javafx.com/javafx/8"
+	xmlns:fx="http://javafx.com/fxml/1" fx:controller="br.com.sistemasg1.cardapio.controller.HomeController">
+	<children>
+		<Text layoutX="166.0" layoutY="150.0" strokeType="OUTSIDE"
+			strokeWidth="0.0" text="Qual módulo deseja acessar?">
+			<font>
+				<Font size="21.0" />
+			</font>
+		</Text>
+		<Text layoutX="145.0" layoutY="99.0" strokeType="OUTSIDE"
+			strokeWidth="0.0"
+			style="-fx-fill: linear-gradient(from 0% 0% to 100% 200%, repeat, aqua 0%, red 50%);; -fx-stroke: black; -fx-stroke-width: 1;"
+			text="Cárdapio" textAlignment="CENTER">
+			<font>
+				<Font name="Curlz MT" size="96.0" />
+			</font>
+		</Text>
+		<Button fx:id="btnVendas" layoutX="223.0" layoutY="195.0"
+			mnemonicParsing="false" prefHeight="75.0" prefWidth="154.0" text="Vendas">
+			<font>
+				<Font size="21.0" />
+			</font>
+		</Button>
+		<Button fx:id="btnCadastro" layoutX="186.0" layoutY="300.0"
+			mnemonicParsing="false" prefHeight="75.0" prefWidth="228.0"
+			text="Cadastro de Cliente">
+			<font>
+				<Font size="21.0" />
+			</font>
+		</Button>
+	</children>
+</AnchorPane>

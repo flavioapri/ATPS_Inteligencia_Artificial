@@ -1,0 +1,108 @@
+.root {
+	-fx-background-image: url("../images/../images/fast-food.jpg");
+}
+.btnProdutos {
+	-fx-background-size: 90.0% 90.0%;
+	-fx-background-repeat: no-repeat;
+	-fx-background-position: center;
+	-fx-font-weight: bold;
+	-fx-font-size: 20.0px;
+}
+#pnePane {
+	-fx-background-image: url("../images/fastfood.jpg");
+	-fx-background-size: 100.0% 100.0%;
+	-fx-background-repeat: no-repeat;
+	-fx-background-position: center;
+}
+#btnLaranja {
+	-fx-background-image: url("../images/laranja.jpg");
+}
+#btnLimao {
+	-fx-background-image: url("../images/limao.jpg");
+}
+#btnUva {
+	-fx-background-image: url("../images/uva.jpg");
+}
+#btnMorango {
+	-fx-background-image: url("../images/morango.jpg");
+	-fx-font-size: 12.0px;
+}
+#btnMaracuja {
+	-fx-background-image: url("../images/maracuja.jpg");
+	-fx-font-size: 12.0px;
+}
+#btnManga {
+	-fx-background-image: url("../images/manga.jpg");
+	-fx-font-size: 12.0px;
+}
+#btnCola {
+	-fx-background-image: url("../images/cola.jpg");
+}
+#btnRefriLaranja {
+	-fx-background-image: url("../images/refri-laranja.jpg");
+	-fx-font-size: 12.0px;
+}
+#btnSoda {
+	-fx-background-image: url("../images/soda.jpg");
+}
+#btnRefriUva {
+	-fx-background-image: url("../images/refri-uva.jpg");
+}
+#btnGuarana {
+	-fx-background-image: url("../images/guarana.jpg");
+	-fx-font-size: 18.0px;
+}
+#btnTutiFrutti {
+	-fx-background-image: url("../images/tuti-fruti.jpg");
+	-fx-font-size: 12.0px;
+}
+#btnFrango {
+	-fx-background-image: url("../images/frango.jpg");
+	-fx-font-size: 12.0px;
+}
+#btnHamburguer {
+	-fx-background-image: url("../images/hamburguer.jpg");
+	-fx-font-size: 12.0px;
+}
+#btnSalada {
+	-fx-background-image: url("../images/salada.jpg");
+}
+#btnPeixe {
+	-fx-background-image: url("../images/peixe.jpg");
+	-fx-font-size: 12.0px;
+}
+#btnCalabresa {
+	-fx-background-image: url("../images/calabresa.jpg");
+	-fx-font-size: 12.0px;
+}
+#btnPicanha {
+	-fx-background-image: url("../images/picanha.jpg");
+	-fx-font-size: 12.0px;
+}
+#btnPudim {
+	-fx-background-image: url("../images/pudim.jpg");
+}
+#btnBolo {
+	-fx-background-image: url("../images/bolo.jpg");
+}
+#btnPetiteGateau {
+	-fx-background-image: url("../images/petit-gateau.jpg");
+	-fx-font-size: 12.0px;
+}
+#btnGelatina {
+	-fx-background-image: url("../images/gelatina.jpg");
+	-fx-font-size: 12.0px;
+}
+#btnCookie {
+	-fx-background-image: url("../images/cookie.jpg");
+	-fx-font-size: 12.0px;
+}
+#btnBrownie {
+	-fx-background-image: url("../images/brownie.jpg");
+	-fx-font-size: 12.0px;
+}
+#txCardapio {
+    -fx-fill: linear-gradient(from 0.0% 0.0% to 100.0% 200.0%, repeat, aqua 0.0%, red 50.0%);
+    -fx-stroke: black;
+    -fx-stroke-width: 1.0;
+}

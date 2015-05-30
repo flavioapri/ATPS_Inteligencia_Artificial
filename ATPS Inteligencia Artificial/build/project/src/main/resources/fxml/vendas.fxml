@@ -1,0 +1,149 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.paint.*?>
+<?import javafx.geometry.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.text.*?>
+<?import javafx.scene.control.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+
+<Pane id="pnePane" fx:id="pnePane" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="760.0" prefWidth="1082.0" styleClass="root" stylesheets="@../styles/home.css" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="br.com.sistemasg1.cardapio.controller.VendasController">
+	<children>
+		<TextField fx:id="txtCodigo" layoutX="517.0" layoutY="108.0" prefHeight="25.0" prefWidth="177.0" />
+		<Label layoutX="389.0" layoutY="110.0" text="Código do Cliente">
+			<font>
+				<Font size="15.0" />
+			</font>
+		</Label>
+		<Text layoutX="449.0" layoutY="91.0" strokeType="OUTSIDE" strokeWidth="0.0" style="-fx-fill: linear-gradient(from 0% 0% to 100% 200%, repeat, aqua 0%, red 50%);; -fx-stroke: black; -fx-stroke-width: 1;" text="Cardápio">
+			<font>
+				<Font name="Curlz MT" size="57.0" />
+			</font>
+		</Text>
+		<HBox layoutX="14.0" layoutY="261.0" spacing="10.0">
+			<children>
+				<Button id="btnLaranja" fx:id="btnLaranja" alignment="BOTTOM_CENTER" layoutX="43.0" layoutY="200.0" mnemonicParsing="false" prefHeight="76.0" prefWidth="102.0" styleClass="btnProdutos" stylesheets="@home.css" text="Laranja" />
+				<Button id="btnLimao" fx:id="btnLimao" alignment="BOTTOM_CENTER" layoutX="162.0" layoutY="207.0" mnemonicParsing="false" prefHeight="76.0" prefWidth="102.0" styleClass="btnProdutos" stylesheets="@home.css" text="Limão" textFill="#1e1e1e" />
+				<Button id="btnUva" fx:id="btnUva" alignment="BOTTOM_CENTER" layoutX="282.0" layoutY="207.0" mnemonicParsing="false" prefHeight="76.0" prefWidth="102.0" styleClass="btnProdutos" stylesheets="@home.css" text="Uva" textFill="#796e6e" />
+				<Button id="btnMorango" fx:id="btnMorango" alignment="BOTTOM_CENTER" layoutX="415.0" layoutY="217.0" mnemonicParsing="false" prefHeight="76.0" prefWidth="102.0" styleClass="btnProdutos" stylesheets="@home.css" text="Morango">
+					<font>
+						<Font size="34.0" />
+					</font>
+				</Button>
+				<Button id="btnMaracuja" fx:id="btnMaracuja" alignment="BOTTOM_CENTER" layoutX="554.0" layoutY="207.0" mnemonicParsing="false" prefHeight="76.0" prefWidth="102.0" styleClass="btnProdutos" stylesheets="@home.css" text="Maracuja" />
+				<Button id="btnManga" fx:id="btnManga" alignment="BOTTOM_CENTER" layoutX="666.0" layoutY="207.0" mnemonicParsing="false" prefHeight="76.0" prefWidth="102.0" styleClass="btnProdutos" stylesheets="@home.css" text="MANGA!" />
+			</children>
+		</HBox>
+		<Label layoutX="14.0" layoutY="203.0" text="Sucos">
+			<font>
+				<Font size="15.0" />
+			</font>
+		</Label>
+		<CheckBox fx:id="chkLeite" layoutX="14.0" layoutY="228.0" mnemonicParsing="false" text="Com Leite">
+			<font>
+				<Font size="15.0" />
+			</font>
+		</CheckBox>
+		<HBox layoutX="14.0" layoutY="398.0" spacing="10.0">
+			<children>
+				<Button id="btnCola" fx:id="btnCola" alignment="BOTTOM_CENTER" layoutX="43.0" layoutY="200.0" mnemonicParsing="false" prefHeight="76.0" prefWidth="102.0" styleClass="btnProdutos" stylesheets="@home.css" text="Cola" textFill="#f8f6f6" />
+				<Button id="btnRefriLaranja" fx:id="btnRefriLaranja" alignment="BOTTOM_CENTER" layoutX="162.0" layoutY="207.0" mnemonicParsing="false" prefHeight="76.0" prefWidth="102.0" styleClass="btnProdutos" stylesheets="@home.css" text="Laranja" textFill="#3c3b3b" />
+				<Button id="btnSoda" fx:id="btnSoda" alignment="BOTTOM_CENTER" layoutX="282.0" layoutY="207.0" mnemonicParsing="false" prefHeight="76.0" prefWidth="102.0" styleClass="btnProdutos" stylesheets="@home.css" text="Soda" textFill="#030303" />
+				<Button id="btnRefriUva" fx:id="btnRefriUva" alignment="BOTTOM_CENTER" layoutX="415.0" layoutY="217.0" mnemonicParsing="false" prefHeight="76.0" prefWidth="102.0" styleClass="btnProdutos" stylesheets="@home.css" text="Uva" />
+				<Button id="btnGuarana" fx:id="btnGuarana" alignment="BOTTOM_CENTER" layoutX="554.0" layoutY="207.0" mnemonicParsing="false" prefHeight="76.0" prefWidth="102.0" styleClass="btnProdutos" stylesheets="@home.css" text="Guarana" />
+				<Button id="btnTutiFrutti" fx:id="btnTutiFruti" alignment="BOTTOM_CENTER" layoutX="666.0" layoutY="207.0" mnemonicParsing="false" prefHeight="76.0" prefWidth="102.0" styleClass="btnProdutos" stylesheets="@home.css" text="Tuti Fruti" textFill="#d9f288" />
+			</children>
+		</HBox>
+		<VBox layoutX="14.0" layoutY="346.0" spacing="3.0">
+			<children>
+				<Text layoutX="74.0" layoutY="382.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Refrigerantes">
+					<font>
+						<Font size="15.0" />
+					</font>
+				</Text>
+				<CheckBox fx:id="chkDiet" layoutX="71.0" layoutY="393.0" mnemonicParsing="false" text="Diet">
+					<font>
+						<Font size="15.0" />
+					</font>
+				</CheckBox>
+			</children>
+		</VBox>
+		<HBox layoutX="14.0" layoutY="530.0" spacing="10.0">
+			<children>
+				<Button id="btnFrango" fx:id="btnFrango" alignment="BOTTOM_CENTER" layoutX="43.0" layoutY="200.0" mnemonicParsing="false" prefHeight="76.0" prefWidth="102.0" styleClass="btnProdutos" stylesheets="@home.css" text="Frango" />
+				<Button id="btnHamburguer" fx:id="btnHamburguer" alignment="BOTTOM_CENTER" layoutX="162.0" layoutY="207.0" mnemonicParsing="false" prefHeight="76.0" prefWidth="102.0" styleClass="btnProdutos" stylesheets="@home.css" text="Hamburguer" />
+				<Button id="btnSalada" fx:id="btnSalada" alignment="BOTTOM_CENTER" layoutX="282.0" layoutY="207.0" mnemonicParsing="false" prefHeight="76.0" prefWidth="102.0" styleClass="btnProdutos" stylesheets="@home.css" text="Salada" textFill="#f2eaea" />
+				<Button id="btnPeixe" fx:id="btnPeixe" alignment="BOTTOM_CENTER" layoutX="415.0" layoutY="217.0" mnemonicParsing="false" prefHeight="76.0" prefWidth="102.0" styleClass="btnProdutos" stylesheets="@home.css" text="Peixe" />
+				<Button id="btnCalabresa" fx:id="btnCalabresa" alignment="BOTTOM_CENTER" layoutX="554.0" layoutY="207.0" mnemonicParsing="false" prefHeight="76.0" prefWidth="102.0" styleClass="btnProdutos" stylesheets="@home.css" text="Calabresa" />
+				<Button id="btnPicanha" fx:id="btnPicanha" alignment="BOTTOM_CENTER" layoutX="666.0" layoutY="207.0" mnemonicParsing="false" prefHeight="76.0" prefWidth="102.0" styleClass="btnProdutos" stylesheets="@home.css" text="Picanha" textFill="#ebe2e2" />
+			</children>
+		</HBox>
+		<Text layoutX="14.0" layoutY="495.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Lanches">
+			<font>
+				<Font size="15.0" />
+			</font>
+		</Text>
+		<CheckBox fx:id="chkQueijo" layoutX="14.0" layoutY="501.0" mnemonicParsing="false" text="Sem Queijo">
+			<font>
+				<Font size="15.0" />
+			</font>
+		</CheckBox>
+		<Text layoutX="14.0" layoutY="656.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Sobremesas">
+			<font>
+				<Font size="15.0" />
+			</font>
+		</Text>
+		<HBox layoutX="14.0" layoutY="667.0" spacing="10.0">
+			<children>
+				<Button id="btnPudim" fx:id="btnPudim" alignment="BOTTOM_CENTER" layoutX="43.0" layoutY="200.0" mnemonicParsing="false" prefHeight="76.0" prefWidth="102.0" styleClass="btnProdutos" stylesheets="@home.css" text="Pudim" />
+				<Button id="btnBolo" fx:id="btnBolo" alignment="BOTTOM_CENTER" layoutX="162.0" layoutY="207.0" mnemonicParsing="false" prefHeight="76.0" prefWidth="102.0" styleClass="btnProdutos" stylesheets="@home.css" text="Bolo" textFill="#f8f3f3" />
+				<Button id="btnPetiteGateau" fx:id="btnPetitGateau" alignment="BOTTOM_CENTER" layoutX="282.0" layoutY="207.0" mnemonicParsing="false" prefHeight="76.0" prefWidth="102.0" styleClass="btnProdutos" stylesheets="@home.css" text="Petit Gateau" />
+				<Button id="btnGelatina" fx:id="btnGelatina" alignment="BOTTOM_CENTER" layoutX="415.0" layoutY="217.0" mnemonicParsing="false" prefHeight="76.0" prefWidth="102.0" styleClass="btnProdutos" stylesheets="@home.css" text="Gelatina" />
+				<Button id="btnCookie" fx:id="btnCookie" alignment="BOTTOM_CENTER" layoutX="554.0" layoutY="207.0" mnemonicParsing="false" prefHeight="76.0" prefWidth="102.0" styleClass="btnProdutos" stylesheets="@home.css" text="Cookie" />
+				<Button id="btnBrownie" fx:id="btnBrownie" alignment="BOTTOM_CENTER" layoutX="666.0" layoutY="207.0" mnemonicParsing="false" prefHeight="76.0" prefWidth="102.0" styleClass="btnProdutos" stylesheets="@../styles/home.css" text="Brownie" />
+			</children>
+		</HBox>
+		<Label layoutX="694.0" layoutY="203.0" text="Pedido">
+			<font>
+				<Font size="15.0" />
+			</font>
+		</Label>
+		<TableView fx:id="tbvPedido" layoutX="694.0" layoutY="228.0" prefHeight="409.0" prefWidth="379.0">
+			<columns>
+				<TableColumn fx:id="tbcProduto" prefWidth="204.0" text="Produto" />
+				<TableColumn fx:id="tbcQuantidade" prefWidth="86.0" text="Quantidade" />
+				<TableColumn fx:id="tbcPreco" prefWidth="88.0" text="Preço" />
+			</columns>
+		</TableView>
+		<HBox layoutX="740.0" layoutY="683.0" spacing="30.0">
+			<children>
+				<Button fx:id="btnFechar" layoutX="694.0" layoutY="589.0" mnemonicParsing="false" text="Fechar Pedido">
+					<font>
+						<Font size="20.0" />
+					</font>
+				</Button>
+				<Button fx:id="btnCancelar" layoutX="919.0" layoutY="589.0" mnemonicParsing="false" text="Cancelar">
+					<font>
+						<Font size="20.0" />
+					</font>
+				</Button>
+			</children>
+		</HBox>
+		<ToolBar prefHeight="40.0" prefWidth="1082.0">
+			<items>
+				<Button alignment="CENTER" mnemonicParsing="false" text="Sair" />
+			</items>
+		</ToolBar>
+		<Label fx:id="lblCliente" layoutX="445.0" layoutY="145.0" text="Bem vindo Cliente!" visible="false">
+			<font>
+				<Font size="23.0" />
+			</font>
+		</Label>
+		<Label fx:id="lblSaudacao" layoutX="308.0" layoutY="174.0" text="Sujerimos algumas opções de acordo com seu perfil! Esperamos que goste!" visible="false">
+			<font>
+				<Font size="14.0" />
+			</font>
+		</Label>
+	</children>
+</Pane>

@@ -1,0 +1,190 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.text.*?>
+<?import javafx.scene.effect.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity"
+	minHeight="-Infinity" minWidth="-Infinity" prefHeight="438.0"
+	prefWidth="679.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1"
+	fx:controller="br.com.sistemasg1.cardapio.controller.CadastroController">
+	<children>
+		<HBox alignment="CENTER" layoutX="23.0" layoutY="86.0" spacing="3.0">
+			<children>
+				<Label layoutX="23.0" layoutY="64.0" text="Nome">
+					<font>
+						<Font size="15.0" />
+					</font>
+				</Label>
+				<TextField fx:id="txtNome" layoutX="23.0" layoutY="81.0"
+					prefHeight="31.0" prefWidth="390.0">
+					<font>
+						<Font size="15.0" />
+					</font>
+				</TextField>
+				<Label layoutX="319.0" layoutY="81.0" text="Código">
+					<font>
+						<Font size="15.0" />
+					</font>
+				</Label>
+				<TextField fx:id="txtCodigo" layoutX="358.0" layoutY="81.0"
+					prefHeight="25.0" prefWidth="147.0">
+					<font>
+						<Font size="15.0" />
+					</font>
+				</TextField>
+			</children>
+		</HBox>
+		<HBox layoutX="23.0" layoutY="106.0" />
+		<VBox layoutX="159.0" layoutY="141.0" spacing="3.0">
+			<children>
+				<Label layoutX="39.0" layoutY="133.0" text="Perfil">
+					<font>
+						<Font size="15.0" />
+					</font>
+				</Label>
+				<CheckBox fx:id="chkDiabetico" layoutX="39.0" layoutY="157.0"
+					mnemonicParsing="false" text="Diabético">
+					<font>
+						<Font size="15.0" />
+					</font>
+				</CheckBox>
+				<CheckBox fx:id="chkHipertenso" layoutX="39.0" layoutY="174.0"
+					mnemonicParsing="false" text="Hipertenso">
+					<font>
+						<Font size="15.0" />
+					</font>
+				</CheckBox>
+				<CheckBox fx:id="chkAleijado" layoutX="39.0" layoutY="191.0"
+					mnemonicParsing="false" text="Deficiência locomotora">
+					<font>
+						<Font size="15.0" />
+					</font>
+				</CheckBox>
+				<CheckBox fx:id="chkVegetariano" layoutX="39.0" layoutY="208.0"
+					mnemonicParsing="false" text="Vegetariano">
+					<font>
+						<Font size="15.0" />
+					</font>
+				</CheckBox>
+				<CheckBox fx:id="chkSurdo" layoutX="39.0" layoutY="225.0"
+					mnemonicParsing="false" text="Deficiênte auditivo">
+					<font>
+						<Font size="15.0" />
+					</font>
+				</CheckBox>
+				<CheckBox fx:id="chkLactose" layoutX="39.0" layoutY="242.0"
+					mnemonicParsing="false" text="Intolerância a lactose">
+					<font>
+						<Font size="15.0" />
+					</font>
+				</CheckBox>
+				<CheckBox fx:id="chkAlergico" layoutX="39.0" layoutY="259.0"
+					mnemonicParsing="false" text="Alérgico">
+					<font>
+						<Font size="15.0" />
+					</font>
+				</CheckBox>
+				<CheckBox fx:id="chkCego" layoutX="39.0" layoutY="276.0"
+					mnemonicParsing="false" text="Deficiênte visual">
+					<font>
+						<Font size="15.0" />
+					</font>
+				</CheckBox>
+			</children>
+		</VBox>
+		<Text layoutX="249.0" layoutY="57.0" strokeType="OUTSIDE"
+			strokeWidth="0.0" text="Cadastro de Clientes">
+			<font>
+				<Font size="20.0" />
+			</font>
+		</Text>
+		<VBox fx:id="vbxAlergias" disable="true" layoutX="383.0" layoutY="141.0"
+			spacing="3.0">
+			<children>
+				<Label layoutX="39.0" layoutY="133.0" text="Alérgico a...">
+					<font>
+						<Font size="15.0" />
+					</font>
+				</Label>
+				<CheckBox layoutX="39.0" layoutY="157.0" mnemonicParsing="false"
+					text="Refrigerante">
+					<font>
+						<Font size="15.0" />
+					</font>
+				</CheckBox>
+				<CheckBox layoutX="39.0" layoutY="174.0" mnemonicParsing="false"
+					text="Carnes">
+					<font>
+						<Font size="15.0" />
+					</font>
+				</CheckBox>
+				<CheckBox layoutX="39.0" layoutY="208.0" mnemonicParsing="false"
+					text="Vegetais">
+					<font>
+						<Font size="15.0" />
+					</font>
+				</CheckBox>
+				<CheckBox fx:id="chkSucos" layoutX="39.0" layoutY="191.0"
+					mnemonicParsing="false" text="Sucos">
+					<font>
+						<Font size="15.0" />
+					</font>
+				</CheckBox>
+				<CheckBox layoutX="39.0" layoutY="225.0" mnemonicParsing="false"
+					text="Laticínios">
+					<font>
+						<Font size="15.0" />
+					</font>
+				</CheckBox>
+				<CheckBox layoutX="39.0" layoutY="242.0" mnemonicParsing="false"
+					text="Pães">
+					<font>
+						<Font size="15.0" />
+					</font>
+				</CheckBox>
+				<CheckBox layoutX="39.0" layoutY="259.0" mnemonicParsing="false"
+					text="Frituras">
+					<font>
+						<Font size="15.0" />
+					</font>
+				</CheckBox>
+				<CheckBox layoutX="39.0" layoutY="276.0" mnemonicParsing="false"
+					text="Legumes">
+					<font>
+						<Font size="15.0" />
+					</font>
+				</CheckBox>
+			</children>
+		</VBox>
+		<Button fx:id="btnLimpar" layoutX="364.0" layoutY="380.0"
+			mnemonicParsing="false" text="Limpar">
+			<font>
+				<Font size="15.0" />
+			</font>
+		</Button>
+		<Button fx:id="btnCadastrar" layoutX="236.0" layoutY="380.0"
+			mnemonicParsing="false" text="Cadastrar">
+			<font>
+				<Font size="15.0" />
+			</font>
+		</Button>
+		<MenuBar prefHeight="25.0" prefWidth="679.0">
+			<menus>
+				<Menu mnemonicParsing="false" text="Alternar módulo">
+					<items>
+						<MenuItem fx:id="mniVendas" mnemonicParsing="false" text="Vendas" />
+					</items>
+				</Menu>
+				<Menu mnemonicParsing="false" text="Ajuda">
+					<items>
+						<MenuItem mnemonicParsing="false" text="Sair" />
+					</items>
+				</Menu>
+			</menus>
+		</MenuBar>
+	</children>
+</AnchorPane>
